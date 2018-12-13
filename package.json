@@ -1,0 +1,25 @@
+{
+  "name": "node_ts_graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "ts": "node_modules/.bin/tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmyrleung/node_ts_graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimmyrleung/node_ts_graphql/issues"
+  },
+  "homepage": "https://github.com/jimmyrleung/node_ts_graphql#readme",
+  "devDependencies": {
+    "typescript": "3.2.2"
+  }
+}
