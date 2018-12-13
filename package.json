@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/app.js",
   "scripts": {
-    "start": "node dist/app.js",
+    "start": "node_modules/.bin/tsc && node dist/main.js",
     "ts": "node_modules/.bin/tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
