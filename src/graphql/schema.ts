@@ -40,6 +40,14 @@ const typeDefs = `
 `;
 
 const resolvers = {
+    // This is a trivial resolver. It doesn't have to be implemented,
+    // because it only has primitive type fields, but this is a sample
+    // of how trivial resolvers are implemented.
+    User: {
+        id: (user: IUser) => user.id,
+        name: (user: IUser) => user.name,
+        email: (user: IUser) => user.email
+    },
     Query: {
         allUsers: () => users
     },
